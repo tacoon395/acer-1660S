@@ -1,0 +1,53 @@
+{
+  "data_version": 7,
+  "iteration": 1,
+  "op_names": [
+    { "id": 1, "name": "Lite" }, 
+    { "id": 2, "name": "Medium" }, 
+    { "id": 3, "name": "High" }, 
+    { "id": 4, "name": "Extreme" }, 
+    { "id": 11, "name": "Efficient" }, 
+    { "id": 12, "name": "EfficientLow" },
+    { "id": 101, "name": "Enterprise" }
+  ],
+  "devices": [
+    { "name": "GeForce GTX 1660 SUPER", "op": [
+      { "id": 11, "pt": 2, "dmc": -505, "mcc": 960, "mcv": 625, "fm": 3, "ftg" : 62, "ftr": 78, "mt": [], "rm": "Hynix" },
+      { "id": 11, "pt": 2, "dmc": 600, "mcc": 990, "mcv": 625, "fm": 3, "ftg" : 62, "ftr": 78, "mt": [], "rm": "Micron" },
+      { "id": 11, "pt": 2, "dmc": 900, "mcc": 960, "mcv": 625, "fm": 3, "ftg" : 62, "ftr": 78, "mt": [] },
+      { "id": 2, "pt": 0, "dmc": -505, "mcc": 960, "fm": 3, "ftg" : 58, "ftr": 74, "rm": "Hynix" },
+      { "id": 2, "pt": 0, "dmc": 400, "mcc": 870, "fm": 3, "ftg" : 58, "ftr": 74, "rm": "Micron" },
+      { "id": 2, "pt": 0, "dmc": 900, "mcc": 960, "fm": 3, "ftg" : 58, "ftr": 74 },
+      { "id": 1, "pt": 0, "dmc": -705, "mcc": 870, "fm": 3, "ftg" : 62, "ftr": 78, "rm": "Hynix" },
+      { "id": 1, "pt": 0, "dmc": -505, "mcc": 720, "fm": 3, "ftg" : 62, "ftr": 78, "rm": "Micron" },
+      { "id": 1, "pt": 0, "dmc": 600, "mcc": 870, "fm": 3, "ftg" : 62, "ftr": 78 }
+    ]},
+    { "pci_devs": ["20F1"], "op": [
+      { "id": 101, "pt": 3, "mcc": 960, "pl": 0, "mt": [] }
+    ]},
+    { "pci_devs": ["2235"], "op": [
+      { "id": 101, "pt": 3, "mcc": 810, "pl": 0, "mt": [] }
+    ]},
+    { "pci_devs": ["1EB8"], "op": [
+      { "id": 101, "pt": 3, "mcc": 420, "pl": 0, "mt": [] }
+    ]},
+    { "pci_devs": ["1B38"], "op": [
+      { "id": 101, "pt": 3, "mcc": 0, "pl": 160, "mt": [] }
+    ]},
+    { "pci_devs": ["1EB1"], "op": [
+      { "id": 101, "pt": 0, "dmc": 0, "mcc": 810, "fm": 3, "ftg" : 60, "ftr": 76 }
+    ]},
+    { "pci_devs": ["1E30"], "op": [
+      { "id": 101, "pt": 0, "dmc": 0, "mcc": 960, "fm": 3, "ftg" : 60, "ftr": 76 }
+    ]},
+    { "pci_devs": ["1C31"], "op": [
+      { "id": 101, "pt": 0, "dmc": 0, "mcc": 0, "fm": 3, "ftg" : 60, "ftr": 76, "mt": [["FAW","16"],["RRD","4"]] }
+    ]},
+    { "pci_devs": ["15F0"], "op": [
+      { "id": 101, "pt": 1, "dmc": 0, "mcc": 0, "pl": 150, "fm": 3, "ftg" : 60, "ftr": 76, "mt": [] }
+    ]},
+    { "pci_devs": ["2231"], "op": [
+      { "id": 101, "pt": 0, "dmc": 0, "mcc": 990, "fm": 3, "ftg" : 60, "ftr": 84 }
+    ]}
+  ]
+}
